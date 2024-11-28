@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 2px solid black;
+            display: grid;
+            gap: 20px;
+            padding: 20px;
+            /*grid-template-columns: repeat(auto-fill,minmax(200px,250px));*/
+            /*grid-template-rows: 150px 150px 150px 150px 150px 150px;*/ 
+            /* width: 80vw;*/
+            
+
+        }
+        .main div {
+            border: 2px solid black;
+            text-align: center;
+            align-content: center;
+            /*height: 100%;
+            width: 100%;*/
+        }
+        .m1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .m2{
+            grid-row-start:2;
+            grid-row-end: 4;
+            
+        }
+        .m3{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .m4{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .m5{
+            grid-row-start: 2;
+            grid-row-end:4;
+            grid-column-start: 4;
+        }
+        .m6{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        .main div{
+            border: 3px solid ;
+        }
+        .main{
+            background-image: url(https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg);
+            background-size: cover;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="m1"><h1>1</h1></div>
+        <div class="m2"><h1>2</h1></div>
+        <div class="m3"><h1>3</h1></div>
+        <div class="m4"><h1>4</h1></div>
+        <div class="m5"><h1>5</h1></div>
+        <div class="m6"><h1>6</h1></div>
+
+    </div>
+</body>
+</html>
